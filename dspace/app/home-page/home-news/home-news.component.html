@@ -1,0 +1,23 @@
+<div class="background-image-container">
+  <div class="container">
+    <div class="jumbotron jumbotron-fluid">
+      <div class="d-flex flex-wrap">
+        <div>
+          <h1 class="display-3">Repositorio Digital San Andrés</h1>
+          <p class="lead">Desde aquí usted podrá buscar y acceder a la producción científica y académica de la Universidad de San Andrés.
+            <br>
+            La organización del material tiene una estructura de datos en forma de árbol. 
+            <br>
+            Se crearon Comunidades según el tipo de material, y Sub-comunidades según el departamento, escuela o sector. 
+            <br>
+            A su vez estas integran Colecciones e Ítems con los objetos digitales propiamente dichos.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <picture class="background-image">
+    <source type="image/webp" srcset="assets/dspace/images/banner-udesa.webp 2000w, assets/dspace/images/banner-half-udesa.webp 1200w, assets/dspace/images/banner-tall-udesa.webp 768w">
+    <source type="image/jpg" srcset="assets/dspace/images/banner-udesa.jpg 2000w, assets/dspace/images/banner-half-udesa.jpg 1200w, assets/dspace/images/banner-tall-udesa.jpg 768w">
+    <img alt="" [src]="'assets/dspace/images/banner-udesa.jpg'"/><!-- without the []="''" Firefox downloads both the fallback and the resolved image -->
+  </picture>
+</div>
